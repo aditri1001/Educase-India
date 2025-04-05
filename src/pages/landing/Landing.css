@@ -1,0 +1,139 @@
+.landing-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 40px 0 10px;
+  box-sizing: border-box;
+}
+
+.landing-border-container {
+  width: 320px;
+  min-height: calc(100vh - 60px);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.landing-content-bottom {
+  margin-top: auto;
+  padding: 0 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.landing-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.landing-text p {
+  margin: 5px 0;
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.create-account-btn,
+.login-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-account-btn {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+.create-account-btn:hover {
+  background-color: #5649c0;
+}
+
+.login-btn {
+  background-color: #ecdaf2;
+  color: #333;
+}
+
+.login-btn:hover {
+  background-color: #e8b8f8;
+}
+
+.landing-pagination {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.nav-arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(108, 92, 231, 0.8);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.nav-arrow:hover {
+  background: rgba(86, 73, 192, 0.9);
+}
+
+.nav-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
+
+
+
+
+  
