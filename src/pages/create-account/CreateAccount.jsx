@@ -221,31 +221,17 @@ function CreateAccount() {
               )}
             </div>
 
-            <Button
-              type="submit"
-              variant="contained"
-              fullWidth
-              style={{
-                padding: '10px 20px', // Reduced from 12px to 10px (top/bottom)
-                backgroundColor: '#6c5ce7',
-                color: 'white',
-                border: 'none',
-                borderRadius: '4px',
-                fontSize: '16px',
-                fontWeight: '500',
-                cursor: 'pointer',
-                marginTop: '15px',
-                transition: 'background-color 0.3s',
-                textTransform: 'none',
-                minHeight: '40px', // Explicit height control
-                lineHeight: '1.25', // Better text vertical alignment
-                '&:hover': {
-                  backgroundColor: '#5649c0'
-                }
-              }}
-            >
-              Create Account
-            </Button>
+            <div className="submit-button-wrapper">
+              <Button
+                type="submit"
+                variant="contained"
+                fullWidth
+                className="create-account-btn"
+              >
+                Create Account
+              </Button>
+            </div>
+
           </form>
         </div>
       </div>
