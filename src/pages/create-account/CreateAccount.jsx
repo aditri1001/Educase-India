@@ -49,7 +49,7 @@ function CreateAccount() {
     if (name === 'phoneNumber') {
       setErrors(prev => ({
         ...prev,
-        phoneNumber: value && !validatePhoneNumber(value) ? 'Please enter a valid phone number (10-15 digits)' : ''
+        phoneNumber: value && !validatePhoneNumber(value) ? 'Please enter a valid phone number (10 digits)' : ''
       }));
     }
   };
